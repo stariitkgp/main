@@ -1,0 +1,384 @@
+/* Google Font
+------------------------------------------------------------------------*/
+.entry-content dl, .comment-content dl{
+	margin: 0 0 !important;
+
+}
+/* - Common Style
+---------------------------------------------------------------------- */
+#pt-container {
+	clear: both;
+}
+#pt-container p {
+	margin:0px;
+}
+#pt-container a{
+	text-decoration: none;
+}
+#pt-container a:hover{
+	text-decoration: none;
+}
+
+#pt-container .white-bg{background-color: #FFF;}
+
+#pt-container .package-price{background-color: #35c8c4;}
+
+
+/* - CCR Pricing
+---------------------------------------------------------------------- */
+.pricing-table {
+	width: 300px;
+	overflow: hidden;
+	float: left;
+	margin: 0px 10px;
+}
+#CCRpricing{
+	margin-bottom: 60px;
+}
+#pt-container .ccr-pricing-table{
+	margin-bottom: 40px;
+}
+#pt-container .ccr-pricing-table .white-bg{
+	padding-bottom: 30px;
+}
+#pt-container .package-title{
+	background-color: #27b7b3;
+	font-family: Dosis, sans-serif;;
+}
+#pt-container .package-title{
+	color: #FFF;
+	font-size: 2.5em;
+	font-weight:700;
+	margin: 0;
+	padding: 20px;
+	text-align: center;
+}
+#pt-container .package-price{
+	color: #FFF;
+	width: 100%;
+	height: 120px;
+	text-align:center;
+	position: relative;
+}
+
+#pt-container .pricing-currency{
+	font-size: 1.5em;
+	font-weight: 700;
+	display: inline-block;
+	margin-left: -24px;
+	position: absolute;
+	top: 30px;
+}
+#pt-container .pricing-duration{
+	font-size: 1.25em;
+	position: absolute;
+	bottom: -15px;
+}
+#pt-container .pricing-table-txt{
+	margin-bottom: 20px;
+	padding-left: 0;
+	margin: 0;
+	padding: 0;
+}
+#pt-container .pricing-duration:before{
+	content: "/";
+}
+#pt-container .pricing-table-txt li:first-child {
+	border-top:none;
+}
+#pt-container .pricing-table-txt li:last-child {
+	border-bottom: none;
+}
+#pt-container .pricing-table-txt li{
+	font-size: 1.143em;
+	list-style: none;
+	line-height: 3.571em;
+	text-align: center;
+	-webkit-text-stroke: 0.2px;
+	border-top:1px solid #f0f1f2;
+	margin:0; 
+	padding: 0;
+}
+#pt-container .pricing-table-txt li:before{
+	content: ""!important;
+}
+#pt-container .pricing-table-txt li:last-child{
+	border-bottom:1px solid #f0f1f2; 
+}
+
+#pt-container .pricing-amount{
+	font-size: 5.42em;
+	display: inline-block;
+	text-align: center;
+	line-height: 1em;
+	font-weight: 700;
+	padding-top: 15px;
+}
+
+#pt-container .triangle-down {
+	height: 0;
+	padding-left: 50%;
+	padding-top: 54%;
+	overflow: hidden;
+}
+#pt-container .triangle-down:after {
+	content: "";
+	display: block;
+	width: 0;
+	height: 0;
+	margin-left: -350px;
+	margin-top: -220px;
+	border-left: 350px solid transparent;
+	border-right: 350px solid transparent;
+}
+#pt-container .triangle-down:after {
+	border-top: 140px solid #35c8c4;
+}
+#pt-container .price-margin {
+	margin-top: 0px;
+	margin-bottom: -50px;
+}
+
+#pt-container .order-now{
+	position: relative;
+	clear: both;
+}
+#pt-container .order-now a{
+	text-align: center;
+	display: inline-block;
+	color: #fff;
+	font-size: 1.8em;
+	font-family: Dosis,sans-serif;
+	line-height: 1em;
+	position: absolute;
+	width: 100%;
+	height: 55px;
+	padding: 10px 0;
+}
+#pt-container .order-triangle{
+	height: 0;
+	padding-left: 50%;
+	padding-top: 50%;
+	overflow: hidden;
+}
+#pt-container .order-triangle:after{
+	content: "";
+	display: block;
+	width: 0;
+	height: 0;
+	margin-left: -350px;
+	margin-top: -220px;
+	border-left: 350px solid transparent;
+	border-right: 350px solid transparent;
+}
+#pt-container .order-triangle:after{
+	border-top: 165px solid #27b7b3;
+}
+
+/*Themes*/
+#pt-container .deep_green .package-title{background-color: #27B783;}
+#pt-container .light_green .package-title{background-color: #5CE79F;}
+#pt-container .light_blue .package-title{background-color: #3db6e4;}
+#pt-container .blue .package-title{background-color: #2980b9;}
+#pt-container .deep_gray .package-title{background-color: #5E5E5E;}
+#pt-container .light_gray .package-title{background-color: #969696;}
+#pt-container .yellow .package-title{background-color: #F1E91A;}
+#pt-container .orange .package-title{background-color: #FFAD00;}
+#pt-container .red .package-title{background-color: #d24643}
+#pt-container .purple .package-title{background-color: #A80DFF;}
+
+#pt-container .deep_green .package-price{background-color: #35C887;}
+#pt-container .light_green .package-price{background-color: #5DF5B2;}
+#pt-container .light_blue .package-price{background-color: #54c9f6;}
+#pt-container .blue .package-price{background-color: #3498db;}
+#pt-container .deep_gray .package-price{background-color: #757575;}
+#pt-container .light_gray .package-price{background-color: #BDBDBD;}
+#pt-container .yellow .package-price{background-color: #FFFF4A;}
+#pt-container .orange .package-price{background-color: #FFC241;}
+#pt-container .red .package-price{background-color: #e65e5b}
+#pt-container .purple .package-price{background-color: #B93CFF;}
+
+#pt-container .deep_green .order-triangle:after{border-top-color: #35C887;}
+#pt-container .light_green .order-triangle:after{border-top-color: #5DF5B2;}
+#pt-container .light_blue .order-triangle:after{border-top-color: #54c9f6;}
+#pt-container .blue .order-triangle:after{border-top-color: #3498db;}
+#pt-container .deep_gray .order-triangle:after{border-top-color: #757575;}
+#pt-container .light_gray .order-triangle:after{border-top-color: #BDBDBD;}
+#pt-container .yellow .order-triangle:after{border-top-color: #FFFF4A;}
+#pt-container .orange .order-triangle:after{border-top-color: #FFC241;}
+#pt-container .red .order-triangle:after{border-top-color: #e65e5b}
+#pt-container .purple .order-triangle:after{border-top-color: #B93CFF;}
+
+#pt-container .deep_green .triangle-down:after {border-top-color: #35C887;}
+#pt-container .light_green .triangle-down:after {border-top-color: #5DF5B2;}
+#pt-container .light_blue .triangle-down:after {border-top-color: #54c9f6;}
+#pt-container .blue .triangle-down:after {border-top-color: #3498db;}
+#pt-container .deep_gray .triangle-down:after {border-top-color: #757575;}
+#pt-container .light_gray .triangle-down:after {border-top-color: #BDBDBD;}
+#pt-container .yellow .triangle-down:after {border-top-color: #FFFF4A;}
+#pt-container .orange .triangle-down:after {border-top-color: #FFC241;}
+#pt-container .red .triangle-down:after {border-top-color: #e65e5b;}
+#pt-container .purple .triangle-down:after {border-top-color: #B93CFF;}
+
+
+/* Responsive CSS */
+
+/* #Tablet (Portrait)
+================================================== */
+
+/* Note: Design for a width of 768px */
+
+
+
+@media only screen and (max-width: 479px) {
+	
+	.pricing-table {
+		width: 95%;
+		overflow: hidden;
+		float: left;
+		margin: 0px 10px;
+	}	
+	#pt-container .package-title{
+		padding: 0px;
+		line-height: 50px;
+		font-size: 2.0em;
+		font-weight: normal;
+	}
+	#pt-container .package-price{
+		height: 30px;
+	}
+	#pt-container .pricing-amount{
+		font-size: 4.5em;
+	}
+	#pt-container .pricing-currency{
+		font-size: 2.5em;
+	}
+	#pt-container .pricing-duration{
+		bottom: -30px;
+	}
+	#pt-container .price-margin{
+		margin-bottom: -70px;
+	}
+	#pt-container .pricing-table-txt li{
+		font-size: 1em;
+		line-height: 2.571em;
+	}
+	#pt-container .triangle-down:after {
+		border-top-width: 170px;
+	}
+	#pt-container .pricing-table-txt {
+		margin-top: 30px;
+	}
+	#pt-container .order-now a {
+		font-size: 2.2em;
+	}
+
+	
+}
+
+@media only screen and (min-width : 480px) and (max-width : 639px) {
+	.pricing-table {
+		width:45%;
+		overflow: hidden;
+		float: left;
+		margin: 0px 10px;
+	}
+	#pt-container .package-title{
+		font-size:1.5em;
+	}
+
+	#pt-container .triangle-down {
+		height: 0;
+		padding-left: 50%;
+		overflow: hidden;
+	}
+	#pt-container .pricing-amount{
+		font-size: 2.42em;
+	}
+	#pt-container .pricing-currency{
+		font-size: 2.42em;
+	}
+	#pt-container .package-price{
+		height: 60px;
+	}
+	#pt-container .pricing-table-txt li{
+		line-height: 2.571em;
+	}
+	#pt-container .order-now a{
+		font-size: 1.36em;
+		padding: 8px 0;
+	}
+}
+@media only screen and (min-width : 640px) and (max-width : 767px) {
+	.pricing-table {
+		width: 46%;
+		overflow: hidden;
+		float: left;
+		margin: 0px 10px;
+	}
+	#pt-container .order-now a{
+		padding: 15px 0;
+	}
+	#pt-container .pricing-table-txt li{
+		line-height: 2.571em;
+	}
+	#pt-container .package-price{
+		height: 80px;
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+	.pricing-table {
+		width: 30%;
+		overflow: hidden;
+		float: left;
+		margin: 0px 10px;
+	}
+	#pt-container .order-now a{
+		font-size: 1.7em;
+		padding: 10px 0;
+	}
+	#pt-container .pricing-amount{
+		font-size: 4em;
+	}
+	#pt-container .package-title{
+		padding: 10px;
+		font-size: 1.8em;
+	}
+	#pt-container .package-price{
+		height: 70px;
+	}
+	#pt-container .pricing-table-txt li{
+		font-size: 1em;
+		line-height: 2.571em;
+	}
+	#pt-container .price-margin{
+		margin-bottom: -60px;
+	}
+
+	
+}
+
+@media only screen and (min-width: 960px){
+	.pricing-table {
+		width: 30%;
+		overflow: hidden;
+		float: left;
+		margin: 0px 10px;
+	}
+	#pt-container .package-title {
+		font-size: 2em;
+		line-height: 2em;
+		padding: 5px;
+	}
+	#pt-container .pricing-amount {
+		/*font-size: 4.0em;*/
+	}
+	#pt-container .pricing-duration {
+		/*bottom: 8px;*/
+		/*font-size: 1.7em;*/
+	}
+	#pt-container .package-price {
+		height: 95px;
+	}
+}
